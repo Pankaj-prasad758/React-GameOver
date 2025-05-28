@@ -10,6 +10,7 @@ import UserLogin from "./Components/Hooks/userContext/UserLogin.jsx";
 import { UserContextProvider } from "./Components/Hooks/userContext/UserProvider.jsx";
 import UseMemo from "./Components/Hooks/Memo/UseMemo.jsx";
 import UseCallBack from "./Components/Hooks/Memo/UseCallBack.jsx";
+import TrafficLight from "./Components/TrafficLight.jsx";
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
       {/* </MyProvider> */}
       {/* <ReactMemo/> */}
        {/* <UseMemo/> */}
-       <UseCallBack/>
+       {/* <UseCallBack/> */}
+       <TrafficLight/>
      </>
     
   );
